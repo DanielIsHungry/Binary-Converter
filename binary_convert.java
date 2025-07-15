@@ -10,7 +10,6 @@ public class binary_convert {
         System.out.println("Enter an integer from 1 to 255");
         int count = scan.nextInt(); // Scan for user input
 
-        double num = 300 * 1.0;
         System.out.println(num);
 
         List<Integer> numbers = new ArrayList<>(); // Creates an empty ArrayList of Strings.
