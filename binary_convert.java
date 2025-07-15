@@ -10,6 +10,9 @@ public class binary_convert {
         System.out.println("Enter an integer from 1 to 255");
         int count = scan.nextInt(); // Scan for user input
 
+        double num = 300 * 1.0;
+        System.out.println(num);
+
         List<Integer> numbers = new ArrayList<>(); // Creates an empty ArrayList of Strings.
 
         for (int i = 0; i < 8; i++) {
@@ -24,7 +27,7 @@ public class binary_convert {
 
         Collections.reverse(numbers); // Reverse the numbers
 
-        for (int j = 0; j < 7; j++) {
+        for (int j = 0; j < numbers.size(); j++) {
             System.out.print(numbers.get(j)); // Print the list
         }
     }
